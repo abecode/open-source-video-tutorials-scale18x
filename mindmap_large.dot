@@ -1,0 +1,60 @@
+# dot -T svg -O mindmap.dot
+# fdp -T svg -O mindmap.dot
+digraph video {
+  rankdir = LR
+  page="10,8"
+  root=video
+  overlap=scale
+  video [label = "Video", root = true]
+  aftereffects [label = "AfterEffects"]
+  prezisozi [label = "Prezi/Sozi"]
+  kenburns [label = "Ken Burns"]
+  "5shot" [label = "5 shot"]
+  bookmarkslinks [label = "bookmarks/links"]
+  flippedclassroom [label = "flipped classroom"]
+  softwarewalkthrough [label = "software walkthrough"]
+  timerequirements [label = "time requirements"]
+  sizefiles [label = "file type, size, compression"]
+  videoclassprojects [label = "video class projects"]
+  relatedareas [label = "related areas"]
+  contentideas [label = "content ideas"]
+  video -> contentideas
+  video -> tools
+  video -> techniques
+  video -> relatedareas
+  video -> sound
+  video -> scalability
+  { rank=same; contentideas, tools, techniques, scalability, relatedareas, sound, scalability }
+  techniques -> animation
+  animation -> aftereffects
+  animation -> beamer
+  animation -> prezi
+  animation -> sozi
+  animation -> kenburns
+  techniques -> "5shot"
+  techniques -> search
+  techniques -> bookmarkslinks
+  bookmarkslinks -> outline -> "org-mode"
+  techniques -> segmentation
+  techniques -> "B roll footage"
+  techniques -> blurring
+  techniques -> transcription
+  techniques -> pedagogy
+  techniques -> softwarewalkthrough
+  pedagogy -> flippedclassroom
+  pedagogy -> videoclassprojects
+  scalability -> timerequirements
+  scalability -> sizefiles
+  tools -> { "open source", svg, beamer, "programmatic editing", "camtasia",
+  "canvas video", "vimeo", "imovie", premier, aftereffects, panopto, zoom,
+  "desktop capture", Lynda, handbrake}
+  "open source" -> {rank=same; blender, openshot, shotcut, avidmux, kdenlive, sozi, beamer}
+  "programmatic editing" -> {ffmpeg, moviepy}
+  relatedareas -> {"online education", "interaction design",
+  "learning styles", "visualization", "presentation patterns",
+  "attention", "subliminal stimuli"}
+  sound -> {"voice recording", "captioning", "ASR", "clapper", "room tone"}
+  clapper -> segmentation
+  contentideas -> {NLP, "demo about video in classrooms"}
+  {rank=source; video}
+  }

@@ -1,0 +1,59 @@
+* TODO make slides outline
+* slides outline
+** title
+   - Producing Video Tutorials With Open Source Tools
+   - Abe Kazemzadeh, University of St. Thomas, St. Paul, MN
+   - SCALE18x
+** acknowledgements
+   - Eric Level
+   - Matthew Lynn
+   - Melissa Loudon, Andrew Li
+** goals and motivation
+   - goal
+     - share experiences (two-way) with tools and techniques for creating and
+       editing video tutorials and lectures
+   - motivation
+     - coding vs gui's: text documentation can be less user friendly
+       for guis compared to code and command line
+       - I'm no longer dismissive of video tutorials
+     - demand: my students seem to like videos
+       - videos from lectures
+       - tutorial videos
+     - scratching an itch
+       - making videos more artful
+       - using open source when possible
+       - saving time and being a more effective teacher (e.g. flipped classroom)
+** going beyond audio+screen capture
+   - talking head: is it useful?
+   - black/white board
+   - over the shoulders, hands
+   - 5 shot sequence
+   - cutshots
+   - slides, animations
+** 5 shot sequence
+   - hands close up
+   - face close up
+   - wide shot with context/environment with subject in it
+   - over the shoulders
+   - creative shot with unusual perspective displaying something else the view should know
+   - hello scale18x I hope you enjoy the presentation!!
+
+
+** demo
+   - idea: combining graphviz and sozi
+** openshot
+   - nice simple interface
+     - I'd probably use this instead of premier pro (premier rush:
+       simplified interface)
+** open questions, conclusion
+   - open questions:
+     - is a talking head necessary or useful?
+     - what are the best sharing platforms
+     - licensing issues
+     - audience experiences
+     - workflow efficiencies
+     - I still have a lot of class material as handouts (pdf with
+       screenshots), should I keep both to accommodate different
+       learning styles?
+       
+* TODO run on virtualbox vm
