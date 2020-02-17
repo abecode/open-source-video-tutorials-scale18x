@@ -1,0 +1,51 @@
+# dot -T svg -O mindmap.dot
+digraph video {
+  compound=true;   #  https://stackoverflow.com/questions/2012036/graphviz-how-to-connect-subgraphs
+  rankdir = LR
+  page="10,8"
+  
+  VideoTutorials [label = "Video Tutorials", root = true]
+  #  root=VideoTutorials
+
+  VideoTutorials -> {rank=same; Tools, Techniques}
+  
+  {rank=same; Tools, Techniques}
+  
+  Techniques -> {rank=same; Video, Audio, "Effort Estimation"}
+
+  ScreenCapture [label = "Screen Capture"]
+  FiveShot [label = "5-Shot Sequence"]
+  BRoll [label = "B Roll"]
+  
+  Video -> {rank=same; ScreenCapture, Editing, FiveShot, BRoll, Animation}
+
+  RoomTone [label = "Room Tone"]
+  AudioSync [label = "Audio Sync"]
+  
+  Audio -> {rank=same; RoomTone, AudioSync}
+  
+  subgraph cluster_tool {
+  label= Tools;
+  node [shape=record];
+  DUMMY_0 [shape=point style=invis]
+  OBSStudio [label = "Open Broadcaster Studio"]
+  SmartPhone [label = "Smart Phone"]
+  LatexBeamer [label = "LaTeX/Beamer"]
+  GraphvizSvg [label = "GraphViz/SVG"]
+  
+  #  Tools -> {rank=same; OBSStudio, OpenShot, SmartPhone, GraphvizSvg, Sozi, LatexBeamer, Microphone, Clapper}
+  {rank=same; OBSStudio, OpenShot, SmartPhone, GraphvizSvg, Sozi, LatexBeamer, Microphone, Clapper, Tripod}
+  }
+
+  #  https://stackoverflow.com/questions/2012036/graphviz-how-to-connect-subgraphs
+  Tools -> DUMMY_0 [lhead=cluster_tool];
+  
+
+  ScreenCapture -> OBSStudio
+  Editing -> OpenShot
+  FiveShot -> {OpenShot, SmartPhone, Tripod}
+  BRoll -> {OpenShot, SmartPhone}
+  Animation -> {Sozi, GraphvizSvg, LatexBeamer}
+  RoomTone -> Microphone
+  AudioSync -> {Clapper, Microphone}
+}

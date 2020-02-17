@@ -57,3 +57,7 @@
        learning styles?
        
 * TODO run on virtualbox vm
+* TODO captions
+* estimation
+** 5 shot: 1hr
+** graphviz 2hr

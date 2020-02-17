@@ -260,6 +260,59 @@ Intro
 status open
 
 \begin_layout Plain Layout
+Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+I started teaching about 1.5 years ago
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+University of St.
+ Thomas (St.
+ Paul) Grad Programs in Software
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+I needed to learn how to record my lectures
+\end_layout
+
+\begin_layout Itemize
+I also needed to made software tutorials
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In particular for GUIs, e.g.
+ Tableau, video makes sense
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+I wanted to use Open Source tools
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Goals
 \end_layout
 
@@ -275,7 +328,7 @@ Share experiences with tools and techniques for creating and editing video
 \end_layout
 
 \begin_layout Itemize
-Two-way sharing of experiences is ideal: please 
+Two-way sharing of experiences is ideal: please share your experiences 
 \end_layout
 
 \end_deeper
@@ -284,6 +337,201 @@ Two-way sharing of experiences is ideal: please
 \end_inset
 
 
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use cases
+\end_layout
+
+\begin_layout Itemize
+Tools and techniques
+\end_layout
+
+\begin_layout Itemize
+Demo
+\end_layout
+
+\begin_layout Itemize
+Discussion
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Use Cases
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Recording a Lecture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Normal classroom experience but it's recorded
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Students can consume lectures remotely if they are sick or travelling
+\end_layout
+
+\begin_layout Itemize
+Students can rewatch difficult material, which can be beneficial for ESL
+ students.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Flipped
+\begin_inset Quotes erd
+\end_inset
+
+ Lecture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A 
+\begin_inset Quotes eld
+\end_inset
+
+flipped
+\begin_inset Quotes erd
+\end_inset
+
+ class is taught so that recorded lecture are watched at home and homeworks/proj
+ects are done in class/in person.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Seems like a good idea but I didn't have any video recording and editing
+ skills
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Video Tutorial
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Video tutorials illustrate a howto using video instead of text
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+I'll be considering the case where the tutorial is about using some software
+ so the base case is screen capture + voice
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Inspiration: Citizen Journalism
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Try to foster the creation of quality user-generated video content with
+ modest means
+\end_layout
+
+\begin_layout Itemize
+Extend the openness and accessibility of open source to producing journalistic
+ media content and distribution on new media platforms
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Tools
+\end_layout
+
+\begin_layout Section
+Techniques
 \end_layout
 
 \begin_layout Section
@@ -309,7 +557,7 @@ Matthew Lynn: visual effects specialist
 \end_layout
 
 \begin_layout Itemize
-Melissa Loudon, Andrew Li: video journalists
+Melissa Loudon, Andrew Li: journalism/communications inspiration
 \end_layout
 
 \begin_layout Itemize
@@ -317,7 +565,8 @@ Eric Level: classroom experience
 \end_layout
 
 \begin_layout Itemize
-Eric Level,
+SCaLE organizers, esp.
+ A/V team
 \end_layout
 
 \end_deeper
