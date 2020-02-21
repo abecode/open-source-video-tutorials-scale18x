@@ -7,7 +7,7 @@
 \textclass beamer
 \begin_preamble
 \usepackage{graphicx}
-
+%\usepackage[many]{tcolorbox}
 \mode<presentation>
 {
 %\usetheme{AnnArbor} % compulsory argument
@@ -128,7 +128,22 @@ Video Tutorials w/ FOSS
 
 \end_inset
 
-Producing Video Tutorials With Open Source Tools
+Producing Video Tutorials 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+With Open Source Tools
 \end_layout
 
 \begin_layout Author
@@ -232,25 +247,6 @@ status open
 
 \end_layout
 
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Outline
-\end_layout
-
-\end_inset
-
-
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Intro
 \end_layout
@@ -291,8 +287,8 @@ I also needed to made software tutorials
 
 \begin_deeper
 \begin_layout Itemize
-In particular for GUIs, e.g.
- Tableau, video makes sense
+Especially graphical user interfaces (GUIs) (e.g.
+ Tableau) video makes sense
 \end_layout
 
 \end_deeper
@@ -350,26 +346,14 @@ Overview
 \end_inset
 
 
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Use cases
-\end_layout
-
-\begin_layout Itemize
-Tools and techniques
-\end_layout
-
-\begin_layout Itemize
-Demo
-\end_layout
-
-\begin_layout Itemize
-Discussion
-\end_layout
-
-\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -406,7 +390,12 @@ Students can consume lectures remotely if they are sick or travelling
 
 \begin_layout Itemize
 Students can rewatch difficult material, which can be beneficial for ESL
- students.
+ students
+\end_layout
+
+\begin_layout Itemize
+Since my university provides classrooms that are all set up and proprietary
+ software, I won't go deep into this 
 \end_layout
 
 \end_deeper
@@ -493,6 +482,10 @@ I'll be considering the case where the tutorial is about using some software
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+I'll be focusing most on this use case
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -525,15 +518,1029 @@ Extend the openness and accessibility of open source to producing journalistic
  media content and distribution on new media platforms
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+E.g.
+ Arab Spring, Japan Tsunami, Ferguson unrest, Occupy Wall Street, Haiti
+ Earthquake, etc.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Techniques
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Video Screen Capture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Video screen capture is a recording of the screen and usually include audio
+ narration
+\end_layout
+
+\begin_layout Itemize
+Useful for demonstrating features of software
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Especially useful for teaching software that has GUIs (graphical user interfaces
+)
+\end_layout
+
+\begin_layout Itemize
+Also useful for filing bug reports
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+By default, screencasts are real-time, but editing can be useful
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Fixing mistakes, shorten the video
+\end_layout
+
+\begin_layout Itemize
+Adding other footage to make it more interesting, e.g.
+ a talking head
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Editing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Video editing involves cutting, arranging, and other transformations of
+ video shots
+\end_layout
+
+\begin_layout Itemize
+Editing is a big aspect of storytelling using video
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Difference between plot and story
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Editing video tutorials can make your videos shorter
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Saves your viewers' time...
+\end_layout
+
+\begin_layout Itemize
+...but costs you your time
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Open Question
+\end_layout
+
+\end_inset
+
+How much value is added from footage besides screen and audio?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+B-Roll
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+``B-Roll'' refers to supplementary or alternative footage
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The main footage is called ``A-Roll''
+\end_layout
+
+\begin_layout Itemize
+In the example of a screencast, the screen recording would be the A-Roll
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+B-Roll can be other video or still images
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+B-Roll could involve a talking head to go with narration, hands/pointing,
+ logos/branding, etc.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Helps establish context and adds dramatic support
+\end_layout
+
+\begin_layout Itemize
+Helps prevent jump cuts, i.e.
+ two shots that are very similar that are edited to be temporally adjacent
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The result is called a ``cut-away shot''
+\end_layout
+
+\end_deeper
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Tip:
+\end_layout
+
+\end_inset
+
+Collect B-roll footage.
+ B-roll footage can give context and depth to the video and it can break
+ up jump cuts.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+5 Shot Sequence
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Combining A-Roll and B-Roll builds up shot sequences
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Can be thought of as design patterns for cinema and television
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The ``5-Shot Sequence'' is a formulaic sequence in journalism composed of
+ the following 5 shots
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A close-up of the hands
+\end_layout
+
+\begin_layout Enumerate
+A close up of the face
+\end_layout
+
+\begin_layout Enumerate
+A wide shot of the environment with the subject in it
+\end_layout
+
+\begin_layout Enumerate
+An over-the-shoulder shot showing the action from the subject's perspective
+\end_layout
+
+\begin_layout Enumerate
+A creative shot to capture an unusual perspective or something else the
+ viewer should know
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+I was inspired by an app done by Melissa Loudon and Andrew Li at USC Annenberg
+ School of Communication and Journalism
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Animation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Screen capture of mouse/cursor movement is itself a type of animation
+\end_layout
+
+\begin_layout Itemize
+Also, the animation effect in slides is another example
+\end_layout
+
+\begin_layout Itemize
+Sozi is an open-source version of Prezi, which uses an SVG canvas to build
+ animated presentations
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Room Tone
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If you record in different acoustic settings, the difference background
+ noise (e.g., heating/ventilation, traffic, lights/eletrical) will create
+ noticeable changes when editing
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This gives the video an unpleasant, amateurish feel
+\end_layout
+
+\begin_layout Itemize
+Especially noticeable when going from ambient recording to complete silence
+\end_layout
+
+\end_deeper
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Tip:
+\end_layout
+
+\end_inset
+
+ Record 30 seconds of ``room tone'' to smooth out audio during silences.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Audio Synchronization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If you are using multple streams of video, you'll want to make sure that
+ they are all synchronized
+\end_layout
+
+\begin_layout Itemize
+It's easier to synchronize video using audio
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Audio sampling rate >> video sampling rate, so there is more resolution
+ to work with
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A clap (impulse noise) can be used to mark the synchronization point
+\end_layout
+
+\begin_layout Itemize
+Two claps can be used to signal an error to be edited out
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Effort Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Effort estimation for video production seems to be similar to software engineeri
+ng, i.e., it's difficult to estimate 
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Tip:
+\end_layout
+
+\end_inset
+
+ Though it is difficult to estimate the time required to edit video, the
+ time required roughly increases with the ratio of input footage to output
+ footage.
+\end_layout
+
 \end_deeper
 \begin_layout Section
 Tools
 \end_layout
 
-\begin_layout Section
-Techniques
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Microphone
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+An external microphone will help record better audio
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If you use your computer microphone, you may hear typing noises, especially
+ for software tutorials
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Microphone
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename media/2020-02-17 13.53.13.jpg
+	lyxscale 10
+	height 75theight%
+	scaleBeforeRotation
+	rotateAngle 270
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Clapper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename media/2020-02-17 13.54.03-1.jpg
+	lyxscale 10
+	width 85page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+OBS Studio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Open Broadcaster Software (OBS) Studio is an open source screen capture
+ solution sponsored by 
+\begin_inset CommandInset href
+LatexCommand href
+name "Twitch"
+target "https://www.twitch.tv/"
+literal "false"
+
+\end_inset
+
+ (a video streaming/sharing site) among others
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Has options for both screen capture and streaming (live screencast)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The feature that I was looking for was to be able to record separate streams
+ from the screen as well as webcam video at the same time
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Might not be important if you don't care about having a 
+\begin_inset Quotes eld
+\end_inset
+
+talking-head
+\begin_inset Quotes erd
+\end_inset
+
+ or if you are okay with having the talking-head pre-mixed into a single
+ stream
+\end_layout
+
+\begin_layout Itemize
+This feature was a bit hacky: I had to start two instances of the program
+ (via command line) to be able to get two video streams to be captured
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Tip:
+\end_layout
+
+\end_inset
+
+To be able to record two separate streams (screen+webcam) using OBS Studio,
+ you need to start two instances of OBS Studio, and start the second instance
+ on the command line.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+OBS
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename media/obs-screenshot.png
+	lyxscale 20
+	width 95page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+OpenShot
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "OpenShot"
+target "https://www.openshot.org/"
+literal "false"
+
+\end_inset
+
+is an open source video editing tool
+\end_layout
+
+\begin_layout Itemize
+Editing is necessary if...
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+you want to mix multiple video sources (e.g., 5-shot sequence) or 
+\end_layout
+
+\begin_layout Enumerate
+you want to cut out unnecessary material (i.e., not live or real-time)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Some editing type features are available when recording live from OBS Studio
+ (e.g., switching from one screen or window to another) 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Smart Phone
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This is needed if you decide to produce B-Roll footage (besides screen capture)
+\end_layout
+
+\begin_layout Itemize
+Using a file synchronization service like Dropbox can make editing the B-Roll
+ footage from the phone very convenient because it doesn't need to be manually
+ moved to the computer
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tripod
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A tripod will help if you are producing the video by yourself
+\end_layout
+
+\begin_layout Itemize
+There are many options for 
+\begin_inset Quotes eld
+\end_inset
+
+selfie
+\begin_inset Quotes erd
+\end_inset
+
+ type tripods for phones
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Comes with Bluetooth remotes for starting/stopping recording
+\end_layout
+
+\begin_layout Itemize
+~$25
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tripod
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+
+\noun on
+\begin_inset Graphics
+	filename media/2020-02-20 12.05.37.jpg
+	lyxscale 10
+	height 80theight%
+	scaleBeforeRotation
+	rotateAngle 270
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Sozi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Sozi"
+target "https://sozi.baierouge.fr/"
+literal "false"
+
+\end_inset
+
+creates animated diagrams from SVG images for snazzy presentations
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Given SVG image(s) create animations that pan, zoom, and rotate using the
+ images as layers
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Open source version of Prezi
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+User interface takes some getting used to: good candidate for a video tutorial
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+See demo video tutorial
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Graphviz
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Graphviz"
+target "https://www.graphviz.org/"
+literal "false"
+
+\end_inset
+
+is an open source graph visualization system
+\end_layout
+
+\begin_layout Itemize
+Generates graph diagrams from a declarative specification
+\end_layout
+
+\begin_layout Itemize
+Used to create the SVG input to Sozi
+\end_layout
+
+\begin_layout Itemize
+Consists of a graph specification language, DOT, and command line tools
+ to generate/render output graphs
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Also useful in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX 
+\end_layout
+
+\end_inset
+
+ toolchain
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+/Beamer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+ and Beamer were used for this presentation slides
+\end_layout
+
+\begin_layout Itemize
+Fits more with the online lecture format but could also be used for video
+ tutorial format
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+E.g., switch screens between the main screen (tutorial subject) and the slide
+ deck
+\end_layout
+
+\begin_layout Itemize
+The slide deck can help keep a video tutorial on track
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Section
 end
 \end_layout

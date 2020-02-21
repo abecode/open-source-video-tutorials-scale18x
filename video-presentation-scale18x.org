@@ -59,5 +59,18 @@
 * TODO run on virtualbox vm
 * TODO captions
 * estimation
-** 5 shot: 1hr
+** 5 shot: 1-2hr
 ** graphviz 2hr
+** sozi: 1 hr
+** slides: 
+   - <2020-02-13 Thu> 1hr
+   - <2020-02-15 Sat> 2hr
+   - <2020-02-17 Mon> 3hr
+   - <2020-02-20 Thu> 4hr
+* references
+  - OBS studio
+  - openshot
+  - graphviz
+  - Sozi
+  - beamer/latex/lyx?
+  - video
