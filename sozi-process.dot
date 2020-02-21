@@ -1,0 +1,14 @@
+# brain -> idea -> editor -> dotfile -> commandline ->
+# svgimage -> sozi -> htmljson -> browser
+
+digraph sozi {
+
+  rankdir = LR
+  node [shape = record]
+
+  brain -> editor [label="idea"]
+  editor -> commandline [label="dotfile"]
+  commandline -> sozi [label="svgimage"]
+  sozi -> browser [label="htmljson"]
+
+}
