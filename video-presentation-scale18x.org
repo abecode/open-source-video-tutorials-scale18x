@@ -67,6 +67,11 @@
    - <2020-02-15 Sat> 2hr
    - <2020-02-17 Mon> 3hr
    - <2020-02-20 Thu> 4hr
+   - <2020-02-24 Mon> 1hr
+   - <2020-03-01 Sun> 6hrs (with practice)
+** obs/sozi demo: 3hr
+** openshot: 2.5 hr
+** posting on YouTube, Twitch 1hr
 * references
   - OBS studio
   - openshot
