@@ -304,6 +304,20 @@ status open
 
 \end_inset
 
+Before that, software industry here in Southern California
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 I needed to learn how to record my lectures
 \end_layout
 
@@ -318,7 +332,7 @@ status open
 
 \end_inset
 
-I also needed to made software tutorials
+I also needed to make software tutorials
 \end_layout
 
 \begin_layout Itemize
@@ -1128,7 +1142,7 @@ status open
 
 \end_inset
 
-In our case the screen recording would be the A-Roll
+Our case: the screen recording is the A-Roll
 \end_layout
 
 \end_deeper
@@ -1247,7 +1261,7 @@ Collect B-roll footage.
 status open
 
 \begin_layout Plain Layout
-5 Shot Sequence
+Shot Sequences
 \end_layout
 
 \end_inset
@@ -1635,11 +1649,24 @@ status open
 \end_inset
 
 If you record in different acoustic settings, the difference background
- noise (e.g., heating/ventilation, traffic, lights/eletrical) will create
- noticeable changes when editing
+ noise creates noticeable changes when editing
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
+E.g., heating/ventilation, traffic, lights/eletrical
+\end_layout
+
 \begin_layout Itemize
 \begin_inset ERT
 status open
