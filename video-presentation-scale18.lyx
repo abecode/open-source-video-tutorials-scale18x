@@ -551,20 +551,32 @@ status open
 
 \end_inset
 
-A 
+Normal lecture: lecture in class, homework/project at home
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
+
 \begin_inset Quotes eld
 \end_inset
 
-flipped
+Flipped
 \begin_inset Quotes erd
 \end_inset
 
- class is taught so that recorded lecture are watched at home while homeworks
- and projects are done in class.
+ lecture: recorded lecture watched at home, homeworks and projects in class.
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 \begin_inset ERT
 status open
@@ -580,7 +592,6 @@ Seems like a good idea but I didn't have any video recording or editing
  skills
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -1051,7 +1062,8 @@ Open Question
 
 \end_inset
 
-How much value is added from footage besides screen and audio?
+How much value is added from editing and adding other footage besides screen+aud
+io?
 \end_layout
 
 \end_deeper
@@ -1840,7 +1852,6 @@ status open
 
 \begin_layout Plain Layout
 
-\noun on
 
 \backslash
 vspace{-4em}
@@ -1965,8 +1976,16 @@ status open
 
 \end_inset
 
-Open Broadcaster Software (OBS) Studio is an open source screen capture
- software
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Open Broadcaster Software (OBS) Studio"
+target "https://obsproject.com/"
+literal "false"
+
+\end_inset
+
+ is an open source screen capture software
 \end_layout
 
 \begin_deeper
@@ -2353,7 +2372,6 @@ status open
 
 \begin_layout Plain Layout
 
-\noun on
 
 \backslash
 vspace{-4em}
@@ -3023,6 +3041,57 @@ Eric Level: teaching and classroom video
 \begin_layout Itemize
 SCaLE organizers, esp.
  A/V team
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
+It's fun and not difficult to make video tutorials with open source tools
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
+I hope that this presentation makes it easier to see a general lay of the
+ land and one specific end-to-end example
 \end_layout
 
 \end_deeper
