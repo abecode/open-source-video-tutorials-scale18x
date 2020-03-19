@@ -4,7 +4,7 @@ This repo contains the materials for a [SCaLE18x (Southern California Linux Expo
 
 - [Conference listing page](https://www.socallinuxexpo.org/scale/18x/presentations/producing-video-tutorials-open-source-tools)
 - [Slides in pdf, in handout mode](https://abecode.github.io/open-source-video-tutorials-scale18x/video-presentation-scale18x-handout.pdf) or [presentation/animated mode](https://abecode.github.io/open-source-video-tutorials-scale18x/video-presentation-scale18x.pdf)
-- [Demo video to illustrate video tutorial techniques](https://youtu.be/WnDD_59Lcas) and some timestamps
+- [Demo video on YouTube to illustrate video tutorial techniques](https://youtu.be/WnDD_59Lcas) and some timestamps
   - [5-shot sequence demo](https://youtu.be/WnDD_59Lcas)
   - [Sozi animated presentation demo](https://youtu.be/WnDD_59Lcas?t=769)
   - [Graphviz example demo](https://youtu.be/WnDD_59Lcas?t=204)
