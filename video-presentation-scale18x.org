@@ -79,3 +79,33 @@
   - Sozi
   - beamer/latex/lyx?
   - video
+* comments from audience
+  - importance of script to save time for editing
+  - ffmpeg for cmdline recording, screen capture
+  - audacity for removing room noise
+  - avidemux p frame
+    - minimalist, faster for editing
+    - i frame, p frame, b frame
+  - samson q2u alternative to yeti blue 
+    -https://smile.amazon.com/Samson-Handheld-Microphone-Recording-Podcasting/dp/B001R747SG/ref=smi_www_rco2_go_smi_g3905707922?_encoding=UTF8&%2AVersion%2A=1&%2Aentries%2A=0&ie=UTF8
+  - conversion options: vlc, handbrake, ffmpeg
+    - https://www.videolan.org/vlc/index.html
+    - https://handbrake.fr/
+    - ffmpeg, https://www.ffmpeg.org/
+  - mirabox
+    - https://www.amazon.com/Mirabox-USB-C-Capture-30FPS-Passthrough/dp/B07QKTTJ4T/ref=asc_df_B07QKTTJ4T/?tag=hyprod-20&linkCode=df0&hvadid=343187928868&hvpos=&hvnetw=g&hvrand=2392194543544792816&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031114&hvtargid=pla-744062894134&psc=1&tag=&ref=&adgrpid=68968886357&hvpone=&hvptwo=&hvadid=343187928868&hvpos=&hvnetw=g&hvrand=2392194543544792816&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031114&hvtargid=pla-744062894134
+    - for capturing mobile devices?
+
+** question from Ari at scale presentation:
+   - is video a preference (vs text)
+   - similar to is visualization a preference 
+   - Hi Ari, thanks for
+     connecting!  I was thinking about what you mentioned at SCaLE,
+     whether video is a preference of modality.  Right now, I kind of
+     personally have a preference away from video but in my viz class
+     I try to convince the students that visualizations are not a
+     preference, like some people are more visual and others aren't,
+     but rather a fundamental tool for understanding data.  So the
+     hypothesis, which I wish I articulated better in the talk, is
+     whether video is the same way, just that maybe it hasn't reached
+     the ripe, sweet spot that visualization has...
